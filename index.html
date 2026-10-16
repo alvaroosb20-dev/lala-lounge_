@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3B1B1F">
+<title>Lala Lounge · Restaurante en Santa Cruz de Tenerife</title>
+<meta name="description" content="Lala Lounge, restaurante en C. Candelaria 22, Santa Cruz de Tenerife. Conservas de la Real Conservera Española, ibéricos, platos para compartir y carta de vinos. Consulta la carta y solicita tu reserva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:wght@300;400;500&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Lala Lounge","servesCuisine":"Española","hasMenu":"#carta","acceptsReservations":true,"address":{"@type":"PostalAddress","streetAddress":"C. Candelaria, 22","postalCode":"38003","addressLocality":"Santa Cruz de Tenerife","addressCountry":"ES"}}</script>
+
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Lala Lounge · Santa Cruz de Tenerife">
+<meta property="og:description" content="Lala Lounge, restaurante en C. Candelaria 22, Santa Cruz de Tenerife. Conservas de la Real Conservera Española, ibéricos, platos para compartir y carta de vinos. Consulta la carta y solicita tu reserva.">
+<meta property="og:image" content="assets/img/barra.jpg">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Lala Lounge, inicio"><span class="logo"><img src="assets/img/logo-lala.png" alt="lala"><span>LOUNGE</span></span></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#experiencia">La experiencia</a>
+      <a href="#carta">Carta</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <a class="cta" href="#reservas">Reservar mesa</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="inicio">
+  <div class="hero-copy">
+    <span class="logo hero-logo" role="img" aria-label="Lala Lounge"><img src="assets/img/logo-lala.png" alt=""><span aria-hidden="true">LOUNGE</span></span>
+    <h1>Sabrás cuándo entras, pero no cuándo sales.</h1>
+    <p>Conservas de la Real Conservera Española, ibéricos, platos para compartir y una carta de vinos y espumosos pensada para alargar la sobremesa.</p>
+    <div class="btns">
+      <a class="btn btn-solid" href="#carta">Ver nuestra carta</a>
+      <a class="btn btn-ghost" href="#reservas">Reservar mesa</a>
+    </div>
+  </div>
+  <div class="hero-photo"><img fetchpriority="high" src="assets/img/barra.jpg" alt="Barra de Lala Lounge con mármol verde, sillas de fibra natural y estanterías doradas con cristalería"></div>
+</div>
+
+<section id="experiencia">
+  <div class="wrap exp-grid">
+    <div>
+      <p class="eyebrow">Bienvenidos</p>
+      <h2>La experiencia Lala Lounge</h2>
+      <p class="exp-quote">«Y cuando termine el sabor, comienza el saborrr.»</p>
+    </div>
+    <div>
+      <p class="lede" style="margin-top:0">Lala Lounge es un lugar para sentarse sin prisa. Una mesa para compartir, producto bien tratado y una copa elegida con calma. Aquí se viene a comer bien y a quedarse.</p>
+      <div class="pillars" style="margin-top:40px">
+        <div class="pillar"><h3>La cocina</h3><p>Conservas seleccionadas, ibéricos 100&nbsp;%, croquetas, papas y carnes con guarnición. Platos sencillos, hechos para pasar de mano en mano.</p></div>
+        <div class="pillar"><h3>El espacio</h3><p>Una barra de mármol verde bajo estructuras doradas, cristalería a la vista, fibras naturales y plantas. Luz cálida para comer y para quedarse.</p></div>
+        <div class="pillar"><h3>El trato</h3><p>Atención cercana, recomendaciones de vino por copa o por botella y el ritmo que cada mesa pida.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="carta" id="carta">
+  <div class="wrap">
+    <div class="carta-head">
+      <div>
+        <p class="eyebrow">Nuestra carta</p>
+        <h2>Para comer y para brindar</h2>
+      </div>
+      <p class="note">Precios en euros, transcritos de la carta impresa. Las entradas marcadas como <em>por confirmar</em> no se leen con claridad en las fotografías y deben revisarse con el restaurante.</p>
+    </div>
+  </div>
+  <div class="tabs" id="tabs"><div class="wrap tabs-in">
+    <a href="#c-conservas">Conservas</a><a href="#c-plato">El plato</a><a href="#c-postre">El postre</a>
+    <a href="#c-espumosos">Espumosos</a><a href="#c-blancos">Vinos blancos</a><a href="#c-tintos">Vinos tintos</a>
+  </div></div>
+  <div class="wrap">
+    <div class="book">
+      <article class="card card-food">
+        <div class="card-title"><h3>La comida</h3><span>del personal</span></div>
+        <div class="cat" id="c-conservas"><h4>Real Conservera Española</h4><ul class="items" data-list="conservas"></ul></div>
+        <div class="cat" id="c-plato"><h4>El plato</h4><ul class="items" data-list="plato"></ul></div>
+        <div class="cat" id="c-postre"><h4>El postre</h4><ul class="items" data-list="postre"></ul></div>
+        <p class="card-foot">Sabrás cuándo entras, pero no cuándo sales.</p>
+      </article>
+      <article class="card card-wine">
+        <div class="card-title"><h3>Los vinos</h3><span>con saborrr</span></div>
+        <div class="cat" id="c-espumosos"><h4>Espumosos <span class="cols"><span>Copa</span><span>Botella</span></span></h4><ul class="items" data-list="espumosos"></ul></div>
+        <div class="cat" id="c-blancos"><h4>Vinos blancos <span class="cols"><span>Copa</span><span>Botella</span></span></h4><ul class="items" data-list="blancos"></ul></div>
+        <div class="cat" id="c-tintos"><h4>Vinos tintos <span class="cols"><span>Copa</span><span>Botella</span></span></h4><ul class="items" data-list="tintos"></ul></div>
+        <p class="card-foot">Y cuando termine el sabor, comienza el saborrr.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="wrap">
+    <div class="gal-head">
+      <div><p class="eyebrow">Galería</p><h2>Lala, en imágenes</h2></div>
+      <p class="note">Pulsa cualquier fotografía para verla ampliada.</p>
+    </div>
+    <div class="gallery" id="gallery">
+      <button class="g1" data-i="0"><figure style="margin:0;height:100%"><img loading="lazy" src="assets/img/barra.jpg" alt="La barra de Lala Lounge"><figcaption>La barra</figcaption></figure></button>
+      <button class="g2" data-i="1"><figure style="margin:0;height:100%"><img loading="lazy" src="assets/img/el-plato.jpg" alt="Carne con pimientos asados y papas panaderas"><figcaption>El plato</figcaption></figure></button>
+      <button class="g3" data-i="2"><figure style="margin:0;height:100%"><img loading="lazy" src="assets/img/ibericos.jpg" alt="Platos de ibéricos junto a una caja de Real Conservera Española"><figcaption>Ibéricos</figcaption></figure></button>
+      <button class="g4" data-i="3"><figure style="margin:0;height:100%"><img loading="lazy" src="assets/img/papas-bravas.jpg" alt="Papas bravas para compartir"><figcaption>Papas bravas</figcaption></figure></button>
+      <button class="g5" data-i="4"><figure style="margin:0;height:100%"><img loading="lazy" src="assets/img/cartas.jpg" alt="Las cartas impresas de comida y vinos de Lala"><figcaption>Las cartas</figcaption></figure></button>
+    </div>
+  </div>
+</section>
+<dialog class="lb" id="lb" aria-label="Fotografía ampliada">
+  <img id="lb-img" src="" alt="">
+  <div class="lb-bar"><span id="lb-cap"></span><span style="display:flex;gap:8px"><button id="lb-prev" aria-label="Anterior">←</button><button id="lb-next" aria-label="Siguiente">→</button><button id="lb-close">Cerrar</button></span></div>
+</dialog>
+
+<section class="res" id="reservas">
+  <div class="wrap res-grid">
+    <aside>
+      <p class="eyebrow">Reservas</p>
+      <h2>Reserva tu mesa</h2>
+      <p class="lede">Déjanos tus datos y la hora que prefieres. Toda solicitud queda pendiente hasta que el restaurante la confirme.</p>
+      <p style="margin-top:28px;font-size:.92rem">Para grupos, celebraciones o peticiones especiales, indícalo en los comentarios.</p>
+    </aside>
+    <form id="rform" novalidate>
+      <div class="f full"><label for="r-name">Nombre y apellidos</label><input id="r-name" name="name" autocomplete="name" required><span class="err"></span></div>
+      <div class="f"><label for="r-phone">Teléfono</label><input id="r-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span class="err"></span></div>
+      <div class="f"><label for="r-email">Correo electrónico</label><input id="r-email" name="email" type="email" autocomplete="email" required><span class="err"></span></div>
+      <div class="f"><label for="r-date">Fecha</label><input id="r-date" name="date" type="date" required><span class="err"></span></div>
+      <div class="f"><label for="r-time">Hora</label><input id="r-time" name="time" type="time" step="900" required><span class="err"></span></div>
+      <div class="f"><label for="r-guests">Comensales</label>
+        <select id="r-guests" name="guests" required>
+          <option value="">Selecciona</option><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option value="9+">9 o más</option>
+        </select><span class="err"></span></div>
+      <div class="f full"><label for="r-notes">Comentarios</label><textarea id="r-notes" name="notes" placeholder="Alergias, celebraciones, preferencia de mesa…"></textarea></div>
+      <div class="form-foot">
+        <button class="btn btn-solid" type="submit">Solicitar reserva</button>
+        <small>La reserva no está confirmada hasta que el restaurante responda.</small>
+      </div>
+      <div class="result" id="result" hidden aria-live="polite">
+        <span class="status">Pendiente de confirmación</span>
+        <h3>Hemos preparado tu solicitud</h3>
+        <p id="result-msg" style="margin:0;color:var(--on-wine-muted)"></p>
+        <pre id="result-text"></pre>
+        <div class="btns" id="result-actions"></div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap ct-grid">
+    <div>
+      <p class="eyebrow">Contacto</p>
+      <h2>Dónde encontrarnos</h2>
+      <dl class="info" style="margin-top:38px" id="info"></dl>
+    </div>
+    <div class="map-wrap">
+      <div class="map"><iframe title="Mapa: Lala Lounge, C. Candelaria 22, Santa Cruz de Tenerife" src="https://www.google.com/maps?q=C.+Candelaria+22,+38003+Santa+Cruz+de+Tenerife&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      <div class="map-foot"><p>C. Candelaria, 22 · 38003 Santa Cruz de Tenerife</p><a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=C.+Candelaria+22,+38003+Santa+Cruz+de+Tenerife" target="_blank" rel="noopener">Cómo llegar</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo" role="img" aria-label="Lala Lounge"><img src="assets/img/logo-lala.png" alt=""><span aria-hidden="true">LOUNGE</span></span>
+    <p class="tag">Y cuando termine el sabor, comienza el saborrr.</p>
+    <small>© <span id="yr"></span> Lala Lounge</small>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
